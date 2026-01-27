@@ -41,8 +41,8 @@ Where applicable, scikit-learn Pipelines are used to combine preprocessing and m
 # 📊 Evaluation Metrics
 Depending on the problem type:
 - Regression:
- - Mean Squared Error (MSE)
- - R² Score
+  - Mean Squared Error (MSE)
+  - R² Score
 
 - Classification:
   - Accuracy
