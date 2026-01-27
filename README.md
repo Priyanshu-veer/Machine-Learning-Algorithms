@@ -34,6 +34,7 @@ For most algorithms, the following workflow is used:
 - Model training
 - Evaluation using appropriate metrics
 - Clean and reproducible implementation
+
 Where applicable, scikit-learn Pipelines are used to combine preprocessing and modeling steps and to avoid data leakage.
 
 
