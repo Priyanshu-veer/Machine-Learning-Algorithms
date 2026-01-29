@@ -1,10 +1,8 @@
 # K-Nearest Neighbors (KNN) classification
 
-## K-Nearest Neighbors (KNN)
+##K-Nearest Neighbors (KNN)
     K-Nearest Neighbors (KNN) is a simple, intuitive, and widely used supervised machine learning algorithm for both classification and regression tasks. Instead of learning explicit model parameters, KNN makes predictions by comparing a data point to the K closest points in the training dataset using a distance metric (such as Euclidean distance).
-    
     For classification, the algorithm assigns the most common label among the K nearest neighbors. For regression, it predicts the average value of those neighbors. Because KNN is non-parametric and lazy, it requires minimal training but can be computationally expensive at prediction time.
-    
     KNN is easy to understand, works well with small datasets, and serves as a strong baseline for many machine learning problems.
 
 This project implements a K-Nearest Neighbors (KNN) classification model using scikit-learn. It demonstrates a complete machine learning workflow, including data splitting, feature scaling, model training, performance evaluation, and hyperparameter tuning with GridSearchCV and cross-validation. The goal is to show how tuning model parameters and using proper validation techniques can significantly improve classification accuracy.
