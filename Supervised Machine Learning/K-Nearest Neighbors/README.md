@@ -55,10 +55,10 @@ Pipeline([
 - Final accuracy improved significantly after tuning
 
 # Results
-Model Stage	                Accuracy
-Baseline KNN	            ~0.75
-Tuned KNN	                ~0.85
-Tuned + Cross-Validation	~0.88
+- Model Stage	                Accuracy
+- Baseline KNN	                ~0.75
+- Tuned KNN	                    ~0.85
+- Tuned + Cross-Validation	    ~0.88
 
 ✔️ Best performance achieved with 5 neighbors
 
