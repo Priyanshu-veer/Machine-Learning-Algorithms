@@ -95,7 +95,6 @@ These metrics help assess both overall performance and class-wise predictions.
 ## Libraries Used
 - Python
 - Pandas
-- NumPy
 - Scikit-learn
 
 ## Why GaussianNB?
