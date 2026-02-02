@@ -70,7 +70,7 @@ Predict labels on the test set, then calculate and print:
 - Classification report (precision, recall, F1-score per class)
 - Confusion matrix
 
-    y_pred = svc.predict(X_test_scaled)
+      y_pred = svc.predict(X_test_scaled)
     
     print(f"Accuracy Score : {accuracy_score(y_test, y_pred)}")
     print(f"Classification Report : \n{classification_report(y_test, y_pred)}")
