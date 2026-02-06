@@ -33,8 +33,8 @@ for studying overfitting behavior.
 ## 🔍 Results
 
 ### Before Hyperparameter Tuning
-- Training R²: ~0.98
-- Testing R²: ~0.65–0.70
+- Training R²: ~0.77
+- Testing R²: ~0.63
 
 ### After GridSearchCV
 - Training R²: ~0.97
@@ -45,7 +45,6 @@ This shows reduced overfitting and improved generalization.
 
 ## 🛠️ Libraries Used
 - Python
-- NumPy
 - scikit-learn
 
 
