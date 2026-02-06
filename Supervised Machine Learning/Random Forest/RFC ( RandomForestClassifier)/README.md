@@ -39,11 +39,11 @@ The Random Forest Classifier is initialized with manually selected hyperparamete
     )
 
 ## Hyperparameters used:
-- *n_estimators* = 100 → number of trees
-- *max_depth* = 5 → limits tree depth to prevent overfitting
-- *random_state* = 42 → ensures reproducibility
+- **n_estimators** = 100 → number of trees
+- **max_depth** = 5 → limits tree depth to prevent overfitting
+- **random_state** = 42 → ensures reproducibility
 
-*Note*: GridSearchCV was initially attempted for hyperparameter tuning, but due to computational constraints, parameters were selected manually for this practice task.
+**Note**: GridSearchCV was initially attempted for hyperparameter tuning, but due to computational constraints, parameters were selected manually for this practice task.
 
 ## 🔀 Train–Test Split
 
@@ -63,7 +63,7 @@ The model is evaluated using:
 - Testing accuracy
 - Classification report (precision, recall, F1-score)
 
-*Results*
+**Results**
 
 - Training Accuracy: 0.859
 - Testing Accuracy: 0.811
