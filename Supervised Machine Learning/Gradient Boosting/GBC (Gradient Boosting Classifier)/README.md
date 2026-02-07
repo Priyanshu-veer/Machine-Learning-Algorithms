@@ -81,11 +81,12 @@ The model shows slight overfitting, as training accuracy is higher than testing 
 
 ### 🛠 Hyperparameter Tuning (GridSearchCV)
 **Parameters Tuned**
-            {
-              "learning_rate": [0.0001, 0.001, 0.01, 0.1],
-              "max_depth": [2, 3, 4, 5],
-              "n_estimators": [80, 90, 100, 120]
-            }
+        
+        {
+          "learning_rate": [0.0001, 0.001, 0.01, 0.1],
+          "max_depth": [2, 3, 4, 5],
+          "n_estimators": [80, 90, 100, 120]
+        }
 
 
 - Cross-Validation: 5-fold
@@ -93,11 +94,13 @@ The model shows slight overfitting, as training accuracy is higher than testing 
 
 ## ⭐ Best Model After Tuning
 **Best Parameters**
+           
             learning_rate = 0.1
             max_depth = 4
             n_estimators = 100
 
 **Performance**
+           
             Metric	             Score
             Training Accuracy	 0.997
             Testing Accuracy	 0.845
