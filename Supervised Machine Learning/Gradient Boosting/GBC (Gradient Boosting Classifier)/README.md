@@ -36,7 +36,7 @@ Dataset generated using make_classification
         )
 
 
-        *📌 Synthetic data is used to clearly observe model behavior without real-world noise.*
+  *📌 Synthetic data is used to clearly observe model behavior without real-world noise.*
 
 ## ⚙️ Model Used
 
@@ -45,9 +45,13 @@ Dataset generated using make_classification
 Initial Hyperparameters
 
 `- loss = "log_loss"`
+
 `- learning_rate = 0.001`
+
 `- n_estimators = 100`
+
 `- max_depth = 3`
+
 `- subsample = 0.8`
 
 ## 📊 Model Evaluation (Before Tuning)
@@ -58,9 +62,13 @@ Initial Hyperparameters
 - Cross-validation score
 
 **Results**
+        
         - Metric	                   Score
+        
         - Training Accuracy	           0.81
+        
         - Testing Accuracy	           0.735
+        
         - Cross-Validation Mean	      ~0.746
 
 **📌 Observation:**
@@ -111,10 +119,15 @@ Although training accuracy is high, test and CV scores improved significantly, i
 
 # 📚 Learning Outcomes
 ✔ Ensemble learning concepts
+
 ✔ Bias-variance tradeoff
+
 ✔ Overfitting detection
+
 ✔ Cross-validation
+
 ✔ Hyperparameter optimization
+
 ✔ Proper ML evaluation workflow
 
 # 🚀 Future Improvements
