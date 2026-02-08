@@ -60,8 +60,8 @@ Hyperparameter optimization is performed using GridSearchCV with 5-fold cross-va
 
 ## 🏆 Model Performance (After Tuning)
 
-| Metric            |          | Score   |
-| ----------------- | -------- |         |
+| Metric                       | Score   |
+| ---------------------------- | ------- |
 | GridSearch Training Accuracy | 88.38   |
 | GridSearch Testing Accuracy  | 83.50   |
 | Best CV Accuracy             | 85.50   |
