@@ -36,11 +36,11 @@ This ensures reproducibility and a controlled environment for model evaluation.
 - Random State: 42
 
 ## 📈 Model Performance (Before Tuning)
-_________________________________
-| Metric	         |    Score
-____________________ | _____________
-| Training Accuracy	 |    91.38%
-| Testing Accuracy	 |    85.00%
+
+| Metric            | Score   |
+| ----------------- | ------- |
+| Training Accuracy | 91.38   |
+| Testing Accuracy  | 85.00   |
 
 ➡️ Slight gap between training and testing accuracy, but no major overfitting observed.
 
@@ -59,12 +59,13 @@ Hyperparameter optimization is performed using GridSearchCV with 5-fold cross-va
 - learning_rate: 0.1
 
 ## 🏆 Model Performance (After Tuning)
-    
-    Metric	                 |    Score
-    ______________________________________
-    Grid Training Accuracy	 |   88.38%
-    Grid Testing Accuracy	 |  83.50%
-    Best CV Accuracy	     |   85.50%
+
+| Metric            |          | Score   |
+| ----------------- | -------- |         |
+| GridSearch Training Accuracy | 88.38   |
+| GridSearch Testing Accuracy  | 83.50   |
+| Best CV Accuracy             | 85.50   |
+
 
 ## Confusion Matrix (Test Set)
 
