@@ -32,11 +32,11 @@ The algorithm stops when:
 - Maximum iterations are reached
 
 ### 📂 Dataset
-- Generated using `*sklearn.datasets.make_blobs*`
+- Generated using `sklearn.datasets.make_blobs`
 - 100 samples
 - 2 features
 - 4 true cluster centers
-- `*random_state=42*` for reproducibility
+- `random_state=42` for reproducibility
 
 ### 📈 Project Workflow
 **1. Data Visualization**
@@ -44,7 +44,7 @@ The algorithm stops when:
 - Observed 4 visually separable clusters
 
 **2. K-Means Clustering (Manual K = 4)**
-- Set `*n_clusters=4*`
+- Set `n_clusters=4`
 - Fitted model
 - Visualized cluster assignments
 - Plotted centroids
