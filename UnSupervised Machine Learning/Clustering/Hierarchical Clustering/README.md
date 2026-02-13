@@ -82,8 +82,11 @@ Install dependencies:
 **🚀 Why Use Hierarchical Clustering?**
 
 ✔ No need to pre-specify cluster centroids
+
 ✔ Dendrogram helps choose optimal cluster number
+
 ✔ Works well for small-to-medium datasets
+
 ✔ Captures hierarchical relationships
 
 **📊 When to Use It?**
