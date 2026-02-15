@@ -121,8 +121,11 @@ Since the dataset was imbalanced (70:30 ratio), relying solely on accuracy was n
 Multiple models were evaluated, including `Logistic Regression`, `Decision Tree`, `SVC`, and `XGBoost`. Among them, **XGBoost** with `SMOTE` provided the best overall performance, achieving:
 
 **- Accuracy: 89%**
+
 **- Recall (High-Risk Class): 93%**
+
 **- F1-Score: 84%**
+
 **- Significant reduction in false negatives (risky approvals)**
 
 While the **Decision Tree Classifier** achieved slightly higher recall, **XGBoost** with **SMOTE** offered a better **balance** between precision and recall, making it more suitable for real-world deployment.
