@@ -42,7 +42,7 @@ You are hired as a Machine Learning Engineer before final to design and develop 
 |Loan_Approved           |   (Target) 1 = Approved, 0 = Rejected
 
 ## Number of samples
-    rows    --_> 1000
+    rows    ---> 1000
     columns ---> 20
 
 **Class distribution** 
