@@ -5,7 +5,7 @@ An intelligent loan approval system that predicts whether a customer should be a
 # Problem Statement
 A mid-sized financial company named ApnaSapna Bank offers personal and home loans to customers across urban and rural regions of India. Every day, hundreds of customers apply for loans through online and branch applications.
 
-Until now, SecureTrust Bank has been using a manual verification process where loan officers evaluate applications by checking income proofs, employment details, credit history, and other documents. This process is time-consuming, biased & inconsistent.
+Until now, ApnaSapna Bank has been using a manual verification process where loan officers evaluate applications by checking income proofs, employment details, credit history, and other documents. This process is time-consuming, biased & inconsistent.
 
 As a result, the bank faces two major challenges:
 1. Good customers sometimes get rejected, leading to loss of business.
