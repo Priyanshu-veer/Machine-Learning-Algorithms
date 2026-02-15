@@ -119,6 +119,7 @@ This project successfully developed a machine learning-based Loan Approval Syste
 Since the dataset was imbalanced (70:30 ratio), relying solely on accuracy was not sufficient. Special focus was given to improving recall and F1-score for the minority class (high-risk applicants) to minimize financial losses caused by approving risky customers.
 
 Multiple models were evaluated, including `Logistic Regression`, `Decision Tree`, `SVC`, and `XGBoost`. Among them, **XGBoost** with `SMOTE` provided the best overall performance, achieving:
+
 **- Accuracy: 89%**
 **- Recall (High-Risk Class): 93%**
 **- F1-Score: 84%**
