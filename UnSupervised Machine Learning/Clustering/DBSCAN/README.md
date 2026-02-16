@@ -60,13 +60,15 @@ DBSCAN uses two important parameters:
     labels = dbscan.fit_predict(X)
 
 ## Visualization
-
+    
     import seaborn as sns
     import matplotlib.pyplot as plt
     
     sns.scatterplot(x=X[:,0], y=X[:,1], hue=labels, palette="viridis")
     plt.title("DBSCAN on make_moons Dataset")
     plt.show()
+**Note:** This visualization code may not be available in the notebook.
+It is optional and can be used separately to visualize the clustering results.
 
 # Comparision K-Means & DBSCAN
 
